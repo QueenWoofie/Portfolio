@@ -1,0 +1,8 @@
+:root {
+    --glow-color: rgba(255, 255, 255, 0.8);
+    --glow-blur: 15px;
+    --glow-intensity: 0 0 var(--glow-blur) var(--glow-color);
+    --effect-time: 0.3s ease-in-out;
+    --thumbnail-border: 2px solid rgb(5, 44, 129);
+    --color-primary: #011238;
+}
