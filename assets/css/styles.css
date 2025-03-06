@@ -22,13 +22,15 @@ header {
 footer {
     background: var(--color-primary);
     color: #fff;
-    min-height: 200px;
+    min-height: 100px;
     height: fit-content;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Logo */
 
 .logo {
     height: 180px;
@@ -77,12 +79,13 @@ footer {
     100% { transform: translate(-50%, -50%) scale(1) rotate(360deg); }
 }
 
+/* Portfolio Elements */
+
 .project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     width: 100%;
-    /* width: 80%; */
     margin: auto;
     overflow: hidden;
     padding: 20px;
